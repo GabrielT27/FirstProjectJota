@@ -15,4 +15,12 @@ class ConversorUnidade
         double km = milha * 1.609;
         return km;
     }
+    public static double mm2cm(double mm) {
+        double cm = mm * 0.1;
+        return cm;
+    }
+    public static double m2cm(double m) {
+        double cm = m * 100;
+        return cm;
+    }
 }
