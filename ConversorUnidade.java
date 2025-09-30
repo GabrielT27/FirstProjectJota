@@ -23,4 +23,8 @@ class ConversorUnidade
         double cm = m * 100;
         return cm;
     }
+    public static double j2cm(double j) {
+        double cm = j * 91.44;
+        return cm;
+    }
 }
